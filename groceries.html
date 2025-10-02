@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Groceries - FlashDeals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/ChatGPT Image Jul 11, 2025, 08_53_28 AM.png" alt="FlashDeals-HQ Logo"
+                            height="80" width="250">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1 class="mb-4 text-center">Groceries</h1>
+
+        <!-- === Fresh Fruits & Vegetables === -->
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('fruits-vegetables')">
+                    <h2>Fresh Fruits & Vegetables <span class="chevron" id="chevron-fruits-vegetables">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="fruits-vegetables">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <!-- All your fruits & vegetables exactly from your file -->
+                        <!-- I will put them all here directly -->
+
+                        <!-- Jazz Apple -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51xRd1x8KOL._AC_SL1100_.jpg"
+                                    class="card-img-top" alt="Fresh Jazz Apple">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Jazz Apple 400-500 g, New Zealand, 3-4 Pcs</h5>
+                                    <p class="card-text">5.34 DHS</p>
+                                    <a href="https://amzn.to/4lovhKw" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cucumber -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51JmngJEBYL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Fresh Cucumber">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Cucumber 400-500 g, GCC, 3-5 Pcs</h5>
+                                    <p class="card-text">2.93 DHS</p>
+                                    <a href="#" target="_blank" class="btn btn-success">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Carrot -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51QUSme6I3L._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Fresh Carrot">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Carrot 450-500g, Australia, 3-5 Pcs</h5>
+                                    <p class="card-text">2.25 DHS</p>
+                                    <a href="https://amzn.to/3IiuBI4" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Onion -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/31P44IxxYdL._AC_.jpg" class="card-img-top"
+                                    alt="Fresh Onion Red">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Onion Red 0.9-1 kg, India, 6-8 Pcs</h5>
+                                    <p class="card-text">2.68 DHS</p>
+                                    <a href="https://amzn.to/4nTKhlo" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Capsicum Yellow -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/41L8Q5lgIUL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Capsicum Yellow">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Capsicum Yellow 300-350 g, GCC, 2-3 Pcs</h5>
+                                    <p class="card-text">2.75 DHS</p>
+                                    <a href="https://amzn.to/3Ide4Fl" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Capsicum Red -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51He6FvpwRL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Capsicum Red">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Capsicum Red 300-350 g, GCC, 2-3 Pcs</h5>
+                                    <p class="card-text">4.46 DHS</p>
+                                    <a href="https://amzn.to/4kxZFB5" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Potato -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/31qb0OojVLL._AC_.jpg" class="card-img-top"
+                                    alt="Fresh Potato">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Potato 0.9-1 kg, Pakistan, 7-9 Pcs</h5>
+                                    <p class="card-text">3.90 DHS</p>
+                                    <a href="https://amzn.to/4lvefdy" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Banana -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/41da0UYhr4L._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Delmonte Banana">
+                                <div class="card-body">
+                                    <h5 class="card-title">Delmonte Banana Ecuador Half Ripe, 900-1100g</h5>
+                                    <p class="card-text">6.98 DHS</p>
+                                    <a href="https://amzn.to/4lKu2VM" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tomato -->
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/31KN-6mtnbL._AC_.jpg" class="card-img-top"
+                                    alt="Fresh Tomato">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Tomato 400-500 g, GCC, 3-5 Pcs</h5>
+                                    <p class="card-text">3.50 DHS</p>
+                                    <a href="https://amzn.to/3IjjGhi" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/31qv6FFFwsL._AC_.jpg" class="card-img-top"
+                                    alt="Fresh Lemon">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Lemon 400-500 g, South Africa, 4-5 Pcs</h5>
+                                    <p class="card-text">4.78 DHS</p>
+                                    <a href="https://amzn.to/3GvsAYs" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51awiE2vBFL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Lime Seedless">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Lime Seedless 0.9-1 kg, Vietnam, 12-15 Pcs</h5>
+                                    <p class="card-text">8.50 DHS</p>
+                                    <a href="https://amzn.to/44LaB8w" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/319ToUBGlNL._AC_.jpg" class="card-img-top"
+                                    alt="Fresh Spring Onion">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Spring Onion 180-200 gm, UAE</h5>
+                                    <p class="card-text">2.60 DHS</p>
+                                    <a href="https://amzn.to/4nI8s60" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71oyzfljWIL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fit Fresh Rocca">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fit Fresh Rocca 150 gm</h5>
+                                    <p class="card-text">8.54 DHS</p>
+                                    <a href="https://amzn.to/44mIE82" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61Xy1MVtGIL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Barakat Fresh Parsley Chopped European">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barakat Fresh Parsley Chopped European 250 gm</h5>
+                                    <p class="card-text">11.52 DHS</p>
+                                    <a href="https://amzn.to/3GxDyNa" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61NjbNChHRL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Coriander Leaves Premium">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Coriander Leaves Premium 70-80g</h5>
+                                    <p class="card-text">1.45 DHS</p>
+                                    <a href="https://amzn.to/4eJ4bvb" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/5166gBNuNnL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Cherry Tomato Mix Candy UAE">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cherry Tomato Mix Candy UAE, 300 g</h5>
+                                    <p class="card-text">14.98 DHS</p>
+                                    <a href="https://amzn.to/3GEzGd4" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/41YZWSDMLDL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Fresh Tomato Plum Small">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Tomato Plum Small In Shaker Cup 250 g, UAE</h5>
+                                    <p class="card-text">7.46 DHS</p>
+                                    <a href="https://amzn.to/4kAOnvz" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51FFwVoAVdL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Fresh Eggplant Brinjal Large">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Eggplant Brinjal Large 400-500 g, GCC, 1-2 Pcs</h5>
+                                    <p class="card-text">5.10 DHS</p>
+                                    <a href="https://amzn.to/4lNXH0n" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61dEUfPqpvL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Zucchini Green">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Zucchini Green 400-500 g, Netherlands, 1-2 Pcs</h5>
+                                    <p class="card-text">12.75 DHS</p>
+                                    <a href="https://amzn.to/44SoJxT" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- === Meat & Poultry === -->
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('meat-poultry')">
+                    <h2>Meat & Poultry <span class="chevron" id="chevron-meat-poultry">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="meat-poultry">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61DBnkcQ4IL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Prime Tender Chicken Breast">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prime Tender Chicken Breast 1 kg</h5>
+                                    <p class="card-text">22.50 DHS</p>
+                                    <a href="https://amzn.to/4ljhvZw" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71Z7XiiPIrL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Alyoum Fresh Chicken Drumstick Bone In, 450g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alyoum Fresh Chicken Drumstick Bone In, 450g</h5>
+                                    <p class="card-text">15.65 DHS</p>
+                                    <a href="https://amzn.to/44mKOoa" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71maePvtqjL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Al Ain Farms Chicken Drum Stick 500 gm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Ain Farms Chicken Drum Stick 500 gm</h5>
+                                    <p class="card-text">16.38 DHS</p>
+                                    <a href="https://amzn.to/44GfZd4" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51NgaGnhCQL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Farm Fresh Chicken Griller 1.1kg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Farm Fresh Chicken Griller 1.1kg</h5>
+                                    <p class="card-text">14.63 DHS</p>
+                                    <a href="https://amzn.to/3TTjjwx" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71KvU5hMiKL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Al Ajban Fresh 8 Chicken Cuts 850 g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Ajban Fresh 8 Chicken Cuts 850 g</h5>
+                                    <p class="card-text">24.84 DHS</p>
+                                    <a href="https://amzn.to/3IkuGeh" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- === Dairy & Eggs === -->
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('dairy-eggs')">
+                    <h2>Dairy & Eggs <span class="chevron" id="chevron-dairy-eggs">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="dairy-eggs">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61TVnsOV-HL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Almarai Cooking Cream, 500 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Almarai Cooking Cream, 500 ml - Pack of 1</h5>
+                                    <p class="card-text">13.80 DHS</p>
+                                    <a href="https://amzn.to/4nTLr0e" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/41l0QMAF44L._AC_.jpg" class="card-img-top"
+                                    alt="Al Jazira Golden Regular Eggs Family Box">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Jazira Golden Regular Eggs Family Box, White, Pack
+                                        of 15</h5>
+                                    <p class="card-text">12.40 DHS</p>
+                                    <a href="https://amzn.to/4kvgiNK" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61hXPjLAyWL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Nada Greek Yoghurt Plain 160g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nada Greek Yoghurt Plain 160g</h5>
+                                    <p class="card-text">5.25 DHS</p>
+                                    <a href="https://amzn.to/46vCL9R" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51nkdFWOi+L._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Al Ain Farms Full Fat Yoghurt 100 gms x 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Ain Farms Full Fat Yoghurt 100 gms x 6</h5>
+                                    <p class="card-text">5.58 DHS</p>
+                                    <a href="https://amzn.to/3TsLPVx" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71xr8I8iDwL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Al Ain Farms Lactose Free UHT Milk 1L">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Ain Farms Lactose Free UHT Milk 1L</h5>
+                                    <p class="card-text">7.28 DHS</p>
+                                    <a href="https://amzn.to/4ky3wy3" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/714FnSfAGCL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Almarai Fresh Cream 100g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Almarai Fresh Cream 100g</h5>
+                                    <p class="card-text">3.70 DHS</p>
+                                    <a href="https://amzn.to/3IfwZzk" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71t111uSTNL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Puck Creamy Mozzarella Shredded Cheese, 180 g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Puck Creamy Mozzarella Shredded Cheese, 180 g</h5>
+                                    <p class="card-text">13.65 DHS</p>
+                                    <a href="https://amzn.to/4kCNAun" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61WjbYPBU1L._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Almarai Feta Cheese Full Cream, 7.05 oz / 200 g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Almarai Feta Cheese Full Cream, 7.05 oz / 200 g</h5>
+                                    <p class="card-text">5.15 DHS</p>
+                                    <a href="https://amzn.to/44HaU40" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71bb5VFgdNL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Amul Butter Unsalted 100gm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Amul Butter Unsalted 100gm</h5>
+                                    <p class="card-text">4.25 DHS</p>
+                                    <a href="https://amzn.to/3TyBkjn" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- === Spices & Seasonings === -->
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('spices-seasonings')">
+                    <h2>Spices & Seasonings <span class="chevron" id="chevron-spices-seasonings">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="spices-seasonings">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61fDxGys6DL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Bayara Himalayan Pink Salt 400 g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bayara Himalayan Pink Salt, 400 g</h5>
+                                    <p class="card-text">10.15 DHS</p>
+                                    <a href="https://amzn.to/4eJjJiD" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51bGln23wZL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Bayara Iodized Table Salt 700G Bottle">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bayara Iodized Table Salt 700G Bottle</h5>
+                                    <p class="card-text">4.52 DHS</p>
+                                    <a href="https://amzn.to/3IecXFr" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51jfwNZU-sL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Bayara White Pepper Powder 45g">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bayara White Pepper Powder 45g</h5>
+                                    <p class="card-text">13.97 DHS</p>
+                                    <a href="https://amzn.to/40asGv9" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71cS0WiXoHL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Ama Vinegar White 473ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ama Vinegar White 473ml</h5>
+                                    <p class="card-text">2.06 DHS</p>
+                                    <a href="https://amzn.to/4nGweiL" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51-WFkgis4L.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Rafaella Spanish Pomace Olive Oil, 2 X 500 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rafaella Spanish Pomace Olive Oil, 2 X 500 ml</h5>
+                                    <p class="card-text">19.93 DHS</p>
+                                    <a href="https://amzn.to/4lqfHhw" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- === Beverages & Desserts === -->
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('beverages-desserts')">
+                    <h2>Beverages & Desserts <span class="chevron" id="chevron-beverages-desserts">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="beverages-desserts">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/516jEFFZDXL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Fresh Celery, Apple Green &amp; Ginger Juice 330 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Celery, Apple Green &amp; Ginger Juice 330
+                                        ml</h5>
+                                    <p class="card-text">7.01 DHS</p>
+                                    <a href="https://amzn.to/3U0rJC3" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/416lKhY20sL._AC_.jpg" class="card-img-top"
+                                    alt="The Brooklyn Creamery Low Calorie Sticks Vanilla &amp; Sea Salt Caramel">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Brooklyn Creamery Low Calorie Sticks
+                                        Vanilla and Sea Salt Caramel Ice Cream 4-Pieces 55 ml</h5>
+                                    <p class="card-text">30.50 DHS</p>
+                                    <a href="https://amzn.to/44HSYGx" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/61z3SwysknL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Oasis Still Drinking Water 24 X 500 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Oasis Still Drinking Water, 24 X 500 ml</h5>
+                                    <p class="card-text">9.80 DHS</p>
+                                    <a href="https://amzn.to/3U0JaSW" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71GGx+QZO1L._AC_SY300_SX300_.jpg"
+                                    class="card-img-top" alt="Al Ain Mineral Water 500ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Al Ain Mineral Water, 500ml, Pack of 24</h5>
+                                    <p class="card-text">10.75 DHS</p>
+                                    <a href="https://amzn.to/4lkl3eb" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71FXqZWStqL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="evian Sparkling Water Cans">
+                                <div class="card-body">
+                                    <h5 class="card-title">evian Sparkling Water Cans 4x330ml</h5>
+                                    <p class="card-text">14.76 DHS</p>
+                                    <a href="https://amzn.to/408sm03" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/81hBthlWRuL._AC_SX679_.jpg"
+                                    class="card-img-top" alt="Zero Sugar, Peach Iced Tea, 320Mlx6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zero Sugar, Peach Iced Tea, 320Mlx6</h5>
+                                    <p class="card-text">19.38 DHS</p>
+                                    <a href="https://amzn.to/4lmYjdm" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71ZMabQmL9L.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top"
+                                    alt="Lipton Tropical Black Iced Tea Passionfruit and Mango, 6x320ml, Pack of 6, Zero Sugar, Non-Carbonated Drink, Limited Edition, Can">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lipton Tropical Black Iced Tea Passionfruit and Mango,
+                                        6x320ml, Pack of 6, Zero Sugar, Non-Carbonated Drink, Limited Edition, Can</h5>
+                                    <p class="card-text">19.28 DHS</p>
+                                    <a href="https://amzn.to/40bsSu6" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/516TIRvtS0L.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Orange Juice Fresh 330 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Orange Juice Fresh 330 ml</h5>
+                                    <p class="card-text">5.77 DHS</p>
+                                    <a href="https://amzn.to/4lmYzZS" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/51VdpyDNzUL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Almarai 100% Apple Juice No Added Sugar 1.4Litre">
+                                <div class="card-body">
+                                    <h5 class="card-title">Almarai 100% Apple Juice No Added Sugar 1.4Litre</h5>
+                                    <p class="card-text">12.95 DHS</p>
+                                    <a href="https://amzn.to/4nHYr8R" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/81EBgt-hrJL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Long Life Juice Apple 180Ml x 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Long Life Juice Apple 180Ml x 6</h5>
+                                    <p class="card-text">9.15 DHS</p>
+                                    <a href="https://amzn.to/4nyzPzo" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71GV+U8T5fL._AC_SY300_SX300_.jpg"
+                                    class="card-img-top" alt="Barakat Green Appletini Mocktail Can 320 ml">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barakat Green Appletini Mocktail Can 320 ml</h5>
+                                    <p class="card-text">10.00 DHS</p>
+                                    <a href="https://amzn.to/4ljZ8DL" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 product-card">
+                                <img src="https://m.media-amazon.com/images/I/71ievn4X9RL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                                    class="card-img-top" alt="Fresh Green Juice 1 L">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Green Juice 1 L</h5>
+                                    <p class="card-text">28.80 DHS</p>
+                                    <a href="https://amzn.to/4eI1SbH" target="_blank" class="btn btn-success">Buy
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- === Others === -->
+
+        <div class="category-section mb-4">
+            <div class="card">
+                <div class="card-header category-header" onclick="toggleCategory('others')">
+                    <h2>Others<span class="chevron" id="chevron-others">▼</span></h2>
+                </div>
+                <div class="card-body category-content" id="others">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a href="index.html" class="btn btn-secondary">Back to Categories</a>
+        </div>
+    </div>
+
+    <script>
+        let activeCategory = null;
+        function toggleCategory(categoryId) {
+            const content = document.getElementById(categoryId);
+            const chevron = document.getElementById(`chevron-${categoryId}`);
+            if (activeCategory === categoryId) {
+                content.classList.remove('active');
+                chevron.classList.remove('rotated');
+                activeCategory = null;
+                return;
+            }
+            if (activeCategory) {
+                const prevContent = document.getElementById(activeCategory);
+                const prevChevron = document.getElementById(`chevron-${activeCategory}`);
+                prevContent.classList.remove('active');
+                prevChevron.classList.remove('rotated');
+            }
+            content.classList.add('active');
+            chevron.classList.add('rotated');
+            activeCategory = categoryId;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
